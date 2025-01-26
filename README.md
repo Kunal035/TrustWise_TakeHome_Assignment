@@ -5,9 +5,10 @@ Make sure that you have docker installed in your system, to check run "docker --
 Clone this repository, open the terminal in that folder
 ## Run the following command: 
 docker network create my_app_network
-
-After this run the following command: 
+ 
 docker-compose up --build
+
+Open http://localhost on any browser
 
 ## Time to Run
 Since the Docker build process will install dependencies such as **torch**, **maven**, **jdk**, **flask**, and several other frameworks, the Docker build can take around **30 minutes** to complete, assuming a decent internet connection.
