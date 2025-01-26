@@ -4,7 +4,8 @@
 Make sure that you have docker installed in your system, to check run "docker --version"
 Clone this repository, open the terminal in that folder
 ## Run the following command: 
-docker network create my_app_netwrok
+docker network create my_app_network
+
 After this run the following command: 
 docker-compose up --build
 
