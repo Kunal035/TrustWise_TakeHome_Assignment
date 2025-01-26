@@ -1,0 +1,14 @@
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/dao/EvaluationLogDao.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/filter/CORSFilter.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/dao/EvaluationLogDaoInterface.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/helper/HuggingFaceHelper.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/app/App.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/dao/EvaluationLogDaoOld.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/utils/DBUtilsOld.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/utils/HuggingFaceAPIClientEducationModel.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/bean/EvaluationLog.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/business/EvaluationOperations.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/utils/DBUtils.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/restcontroller/EvaluationController.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/business/EvaluationOperationsInterface.java
+/Users/kunal.bansal1/Desktop/take home/trustwise_assignment/TrustWiseBackend/src/main/java/com/trustwise/utils/HuggingFaceAPIClientEmotionalModel.java

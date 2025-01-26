@@ -1,0 +1,46 @@
+version: '3.9'
+
+networks:
+  my_app_network:
+    external: true
+
+services:
+  flask-app:
+    build:
+      context: ./TrustWise_Flask
+      dockerfile: Dockerfile
+    image: flask-image
+    container_name: flask-container
+    ports:
+      - "5000:5000"
+    networks:
+      - my_app_network
+
+  java-backend:
+    build:
+      context: ./TrustWise_Assignment
+      dockerfile: Dockerfile
+    image: backend-image
+    container_name: backend-container
+    ports:
+      - "8080:8080"
+    networks:
+      - my_app_network
+    depends_on:
+      - flask-app
+    environment:
+      - API_URL=https://api-inference.huggingface.co/models/SamLowe/roberta-base-go_emotions
+      - API_KEY=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
+
+  react-frontend:
+    build:
+      context: ./TrustWise_FrontEnd
+      dockerfile: Dockerfile
+    image: frontend-image
+    container_name: frontend-container
+    ports:
+      - "80:80"
+    networks:
+      - my_app_network
+    depends_on:
+      - java-backend

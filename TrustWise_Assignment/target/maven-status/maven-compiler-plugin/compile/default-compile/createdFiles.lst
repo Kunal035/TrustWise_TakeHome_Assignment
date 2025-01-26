@@ -1,0 +1,14 @@
+com/trustwise/dao/EvaluationLogDao.class
+com/trustwise/dao/EvaluationLogDaoOld.class
+com/trustwise/app/App.class
+com/trustwise/utils/DBUtilsOld.class
+com/trustwise/bean/EvaluationLog.class
+com/trustwise/business/EvaluationOperations.class
+com/trustwise/utils/HuggingFaceAPIClientEmotionalModel.class
+com/trustwise/helper/HuggingFaceHelper.class
+com/trustwise/utils/HuggingFaceAPIClientEducationModel.class
+com/trustwise/business/EvaluationOperationsInterface.class
+com/trustwise/dao/EvaluationLogDaoInterface.class
+com/trustwise/filter/CORSFilter.class
+com/trustwise/utils/DBUtils.class
+com/trustwise/restcontroller/EvaluationController.class
