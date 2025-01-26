@@ -3,10 +3,18 @@
 ## Instructions to run
 Make sure that you have docker installed in your system, to check run "docker --version"
 Clone this repository, open the terminal in that folder
-## Run the following command: 
-docker network create my_app_network
- 
-docker-compose up --build
+## How to Run
+
+### Docker Setup:
+1. Ensure **Docker** is installed and running on your machine.
+
+### Building and Running the Services:
+1. Run the following command in the root directory of the project to build and start the containers:
+
+   ```bash
+   docker network create my_app_network
+   ```bash
+   docker-compose up --build
 
 Open http://localhost on any browser
 
@@ -87,14 +95,3 @@ The **Flask Application** is responsible for running the **Education Model**.
 - The deployment structure ensures **modularity**, allowing each service to operate independently while communicating seamlessly.
 
 ---
-
-## How to Run
-
-### Docker Setup:
-1. Ensure **Docker** is installed and running on your machine.
-
-### Building and Running the Services:
-1. Run the following command in the root directory of the project to build and start the containers:
-
-   ```bash
-   docker-compose up --build
