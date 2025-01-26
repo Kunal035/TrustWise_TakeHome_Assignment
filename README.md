@@ -15,6 +15,7 @@
    docker-compose up --build
 
 Sometimes the build interrupts due to timeout or docker issues, please retry the above command of docker compose again.
+
 Open http://localhost on any browser
 
 ## Time to Run
